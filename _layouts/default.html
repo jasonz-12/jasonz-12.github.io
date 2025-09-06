@@ -5,18 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="app-container">
         <!-- Sidebar -->
         <nav class="sidebar" id="sidebar">
             <div class="sidebar-header">
-                <h2 class="sidebar-title">{{ site.title }}</h2>
+                <h2 class="sidebar-title">JASON.ZHU</h2>
                 <button class="sidebar-toggle" id="sidebarToggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    [ MENU ]
                 </button>
             </div>
             
@@ -24,31 +22,37 @@
                 <ul class="nav-menu">
                     <li class="nav-item">
                         <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">
-                            <span class="nav-icon">🏠</span>
+                            <span class="nav-icon">></span>
                             <span class="nav-text">Home</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ '/about' | relative_url }}" class="nav-link {% if page.url == '/about/' %}active{% endif %}">
-                            <span class="nav-icon">👨‍💻</span>
+                            <span class="nav-icon">></span>
                             <span class="nav-text">About</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ '/projects' | relative_url }}" class="nav-link {% if page.url == '/projects/' %}active{% endif %}">
-                            <span class="nav-icon">🚀</span>
+                            <span class="nav-icon">></span>
                             <span class="nav-text">Projects</span>
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a href="{{ '/learning' | relative_url }}" class="nav-link {% if page.url == '/learning/' %}active{% endif %}">
+                            <span class="nav-icon">></span>
+                            <span class="nav-text">AI Learning</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a href="{{ '/blog' | relative_url }}" class="nav-link {% if page.url contains '/blog' %}active{% endif %}">
-                            <span class="nav-icon">📝</span>
+                            <span class="nav-icon">></span>
                             <span class="nav-text">Blog</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ '/contact' | relative_url }}" class="nav-link {% if page.url == '/contact/' %}active{% endif %}">
-                            <span class="nav-icon">📧</span>
+                            <span class="nav-icon">></span>
                             <span class="nav-text">Contact</span>
                         </a>
                     </li>
@@ -58,13 +62,13 @@
             <div class="sidebar-footer">
                 <div class="social-links">
                     <a href="#" class="social-link" title="GitHub">
-                        <span>📚</span>
+                        <span>GH</span>
                     </a>
                     <a href="#" class="social-link" title="LinkedIn">
-                        <span>💼</span>
+                        <span>IN</span>
                     </a>
-                    <a href="#" class="social-link" title="Twitter">
-                        <span>🐦</span>
+                    <a href="#" class="social-link" title="Email">
+                        <span>@</span>
                     </a>
                 </div>
             </div>

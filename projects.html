@@ -5,101 +5,214 @@ permalink: /projects/
 ---
 
 <div class="main-content">
-    <div class="page-header">
-        <h1 class="page-title">My Projects</h1>
-        <p class="page-subtitle">A showcase of my work, experiments, and creative endeavors</p>
+    <div class="terminal-section">
+        <div class="terminal-header">
+            <div class="terminal-dots">
+                <div class="terminal-dot red"></div>
+                <div class="terminal-dot yellow"></div>
+                <div class="terminal-dot green"></div>
+            </div>
+            <div class="terminal-title">projects_directory.py</div>
+        </div>
+        <div class="terminal-content">
+            <h1 class="hero-title">Project Portfolio</h1>
+            <p class="hero-subtitle">Building tools that bridge data engineering, AI, and real-world applications</p>
+        </div>
     </div>
 
-    <section class="section">
-        <div class="container">
-            <div class="projects-grid">
-                <div class="project-card featured-project">
-                    <div class="project-image">
-                        <div class="project-badge">Featured</div>
-                        <div class="project-placeholder">
-                            <span class="project-icon">🌟</span>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Personal Website</h3>
-                        <p class="project-description">This very website you're browsing! A colorful, responsive personal homepage with a modern sidebar navigation and beautiful gradients.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Jekyll</span>
-                            <span class="tech-tag">HTML/CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">GitHub Pages</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Live</a>
-                            <a href="#" class="project-link">Source Code</a>
-                        </div>
-                    </div>
+    <div class="compact-grid">
+        <div class="info-card">
+            <div class="card-header">
+                <span class="card-icon">🧠</span>
+                <h3 class="card-title">Second Brain System</h3>
+            </div>
+            <div class="card-content">
+                <p><strong>Knowledge Graph + LLM Integration</strong><br>
+                Combining knowledge graphs and LLMs to capture, organize, and recall personal and conversational memory at scale. Long-term memory (core knowledge) + short-term (sessional context).</p>
+                <div class="code-block">
+                    <pre>
+# Architecture
+├── Knowledge graph storage
+├── LLM integration layer
+├── Memory consolidation
+└── Context retrieval system
+                    </pre>
                 </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <span class="project-icon">🚀</span>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Coming Soon</h3>
-                        <p class="project-description">Exciting new projects are in development. Stay tuned for innovative solutions and creative experiments!</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">In Development</span>
-                        </div>
-                        <div class="project-links">
-                            <span class="project-link disabled">Coming Soon</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <span class="project-icon">💡</span>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Future Ideas</h3>
-                        <p class="project-description">A collection of ideas and concepts waiting to be brought to life. Innovation never stops!</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Brainstorming</span>
-                        </div>
-                        <div class="project-links">
-                            <span class="project-link disabled">In Planning</span>
-                        </div>
-                    </div>
-                </div>
+                <p><span style="color: var(--neon-green);">Status:</span> Active Development</p>
             </div>
         </div>
-    </section>
 
-    <section class="section section-alt">
-        <div class="container">
-            <h2 class="section-title">Project Categories</h2>
-            <div class="category-grid">
-                <div class="category-card">
-                    <div class="category-icon">🌐</div>
-                    <h3>Web Development</h3>
-                    <p>Modern web applications and responsive websites</p>
+        <div class="info-card">
+            <div class="card-header">
+                <span class="card-icon">⌚</span>
+                <h3 class="card-title">WatchOS Sports Logger</h3>
+            </div>
+            <div class="card-content">
+                <p><strong>Fitness Tracking App</strong><br>
+                Native watchOS application for logging sports activities, workout metrics, and performance tracking. Integrates with HealthKit for comprehensive fitness data.</p>
+                <div class="code-block">
+                    <pre>
+# Features
+├── Real-time activity logging
+├── HealthKit integration
+├── Performance analytics
+└── Workout pattern analysis
+                    </pre>
                 </div>
-                <div class="category-card">
-                    <div class="category-icon">📱</div>
-                    <h3>Mobile Apps</h3>
-                    <p>Cross-platform mobile applications</p>
-                </div>
-                <div class="category-card">
-                    <div class="category-icon">🔧</div>
-                    <h3>Tools & Utilities</h3>
-                    <p>Helpful tools and productivity applications</p>
-                </div>
-                <div class="category-card">
-                    <div class="category-icon">🎨</div>
-                    <h3>Creative Projects</h3>
-                    <p>Experimental and artistic endeavors</p>
-                </div>
+                <p><span style="color: var(--neon-yellow);">Status:</span> Prototype</p>
             </div>
         </div>
-    </section>
+
+        <div class="info-card">
+            <div class="card-header">
+                <span class="card-icon">📊</span>
+                <h3 class="card-title">SQLAlchemy Cohort Slicer</h3>
+            </div>
+            <div class="card-content">
+                <p><strong>Healthcare Data Tool</strong><br>
+                SQLAlchemy-based tool for patient cohort creation and analysis. Designed for OMOP CDM and real-world data pipelines with flexible query generation.</p>
+                <div class="code-block">
+                    <pre>
+# Capabilities
+├── OMOP CDM integration
+├── Dynamic cohort creation
+├── Patient journey analysis
+└── EHR/Claims data slicing
+                    </pre>
+                </div>
+                <p><span style="color: var(--neon-green);">Status:</span> Production Use</p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <div class="card-header">
+                <span class="card-icon">🤖</span>
+                <h3 class="card-title">Lightweight AI Inference</h3>
+            </div>
+            <div class="card-content">
+                <p><strong>Model Deployment Framework</strong><br>
+                Lightweight inference and deployment solutions for AI applications. Focus on efficiency, containerization, and healthcare compliance.</p>
+                <div class="code-block">
+                    <pre>
+# Components
+├── Model optimization
+├── Container deployment
+├── API wrapper layer
+└── Healthcare compliance
+                    </pre>
+                </div>
+                <p><span style="color: var(--neon-yellow);">Status:</span> Experimental</p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <div class="card-header">
+                <span class="card-icon">🏥</span>
+                <h3 class="card-title">Healthcare AI Q&A</h3>
+            </div>
+            <div class="card-content">
+                <p><strong>Capstone Project (Planned)</strong><br>
+                End-to-end healthcare Q&A assistant combining RAG, LLMs, and medical knowledge bases. Part of 6-month AI learning path.</p>
+                <div class="code-block">
+                    <pre>
+# Planned Features
+├── Medical literature RAG
+├── Clinical guideline search
+├── Patient query processing
+└── HIPAA-compliant design
+                    </pre>
+                </div>
+                <p><span style="color: var(--neon-pink);">Status:</span> Planning Phase</p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <div class="card-header">
+                <span class="card-icon">🌐</span>
+                <h3 class="card-title">This Website</h3>
+            </div>
+            <div class="card-content">
+                <p><strong>Cyberpunk Personal Site</strong><br>
+                Jekyll-based personal website with cyberpunk aesthetic. Terminal-inspired design, responsive layout, and GitHub Pages deployment.</p>
+                <div class="code-block">
+                    <pre>
+# Tech Stack
+├── Jekyll static generator
+├── Custom CSS/JS
+├── GitHub Pages hosting
+└── Responsive design
+                    </pre>
+                </div>
+                <p><span style="color: var(--neon-green);">Status:</span> Live</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="terminal-section">
+        <div class="terminal-header">
+            <div class="terminal-dots">
+                <div class="terminal-dot red"></div>
+                <div class="terminal-dot yellow"></div>
+                <div class="terminal-dot green"></div>
+            </div>
+            <div class="terminal-title">tech_stack.json</div>
+        </div>
+        <div class="terminal-content">
+            <div class="code-block">
+                <pre>
+{
+  "languages": ["Python", "SQL", "JavaScript", "Swift"],
+  "frameworks": ["PyTorch", "SQLAlchemy", "Jekyll", "SwiftUI"],
+  "data_engineering": ["OMOP CDM", "EHR", "Claims Data", "Real-World Data"],
+  "ai_ml": ["Transformers", "Hugging Face", "LangChain", "Vector DBs"],
+  "deployment": ["Docker", "Kubernetes", "FastAPI", "GitHub Pages"],
+  "healthcare": ["HL7 FHIR", "HIPAA Compliance", "Clinical Workflows"],
+  "tools": ["Git", "MLflow", "Jupyter", "VS Code"]
+}
+                </pre>
+            </div>
+        </div>
+    </div>
+
+    <div class="compact-grid">
+        <div class="info-card">
+            <div class="card-header">
+                <span class="card-icon">💡</span>
+                <h3 class="card-title">Development Philosophy</h3>
+            </div>
+            <div class="card-content">
+                <p>Building tools that solve real problems. Focus on practical implementation over theoretical perfection. Iterate quickly, deploy early, learn continuously.</p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <div class="card-header">
+                <span class="card-icon">🎯</span>
+                <h3 class="card-title">Current Focus</h3>
+            </div>
+            <div class="card-content">
+                <p>AI/ML integration with healthcare workflows. Building the bridge between data engineering expertise and cutting-edge AI applications.</p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <div class="card-header">
+                <span class="card-icon">�</span>
+                <h3 class="card-title">Future Projects</h3>
+            </div>
+            <div class="card-content">
+                <p>Multi-agent healthcare systems, advanced RAG implementations, real-time patient monitoring tools, AI-powered clinical decision support.</p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <div class="card-header">
+                <span class="card-icon">🔗</span>
+                <h3 class="card-title">Open Source</h3>
+            </div>
+            <div class="card-content">
+                <p>Committed to open source contribution. Healthcare tools, AI utilities, and data engineering frameworks available for community use.</p>
+            </div>
+        </div>
+    </div>
 </div>

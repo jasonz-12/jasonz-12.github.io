@@ -1,3 +1,20 @@
-theme: jekyll-theme-minimal
 title: Jason Zhu's homepage
 description: What do I know?
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Collections
+collections:
+  posts:
+    output: true
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
